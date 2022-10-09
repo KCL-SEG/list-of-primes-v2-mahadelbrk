@@ -17,8 +17,4 @@ def primes(number_of_primes):
         if isPrime:
             list.append(possiblePrime)
             
-
     return list[0:number_of_primes]
-
-print(primes(20))
-
