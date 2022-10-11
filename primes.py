@@ -1,9 +1,6 @@
 """List of prime numbers generator."""
 """ENTER YOUR SOLUTION HERE!"""
 
-from re import T
-from typing import Iterable
-
 
 def primes(number_of_primes):
     list = []
