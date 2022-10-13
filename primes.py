@@ -26,6 +26,13 @@ def primes (number_of_primes) :
                 prime = False
         if prime:
             list.append (num)
-            i=i
+            i=i+1
         num = num +1
     return list
+
+    #what is i doing, it does not increment
+    #using the for loop is good, changing the values as you loop through
+    #variable naming is clear
+    #function is given
+    #class is given
+    #code duplication is minimum
