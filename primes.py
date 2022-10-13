@@ -19,7 +19,7 @@ def primes (number_of_primes) :
     list = []
     num = 2
     i=0
-    if (number_of_primes<0):
+    if (number_of_primes<=0):
         raise ValueError()
     
     
