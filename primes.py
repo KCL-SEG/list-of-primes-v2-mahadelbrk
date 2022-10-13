@@ -26,6 +26,6 @@ def primes (number_of_primes) :
                 prime = False
         if prime:
             list.append (num)
-            i=i1
+            i=i
         num = num +1
     return list
